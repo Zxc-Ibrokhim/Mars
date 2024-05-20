@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1085px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 50px;
+    border-bottom: 2px solid grey;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_link{
+    color: #424242;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.header_link:hover{
+   color: red;
+}
+ .main{
+    width: 950px;
+    height: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+border: 1px solid rgb(222, 219, 219);
+border-radius: 50px;
+background: rgb(255, 255, 255);
+ }
+.sec1{
+    margin: 150px;
+}
+
+.sec1_wrapper{
+    display: flex;
+    justify-content: center ;
+    gap: 250px;
+}
+
+.sec1_text{
+    color: #f0400f;
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+}
+
+.sec1_content{
+    display: flex;
+   align-items: center;
+   gap: 15px;
+}
+
+.sec2_title{
+    color: #0e0d5d;
+font-family: "Inter";
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+ text-align: center;
+}
+
+
+.sec2_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+margin: 0 auto;
+margin-top: 50px;
+background-color: #F5F5F5;
+ height: 60px;
+ width: 570px;
+}
+
+.sec2_text{
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    }
+  .sec22_text{
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+  
+  }
+.sec2_text:hover{
+    color: red ;
+    background-color: black;
+    transition: 0.10s ease-in-out;
+}
+.sec22_text:hover{
+    color: red ;
+    background-color: black;
+    transition: 0.10s ease-in-out;
+}
+
+.sec3_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.sec3_inputs{
+    width: 450px;
+    height: 50px;
+    font-family: "inter";
+    border: 1px solid rgb(222, 219, 219);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.sec3_qr{
+    color: rgba(0, 0, 0, 0.64);
+font-family: "Inter";
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+text-align: center;
+}
+
+.sec3_btn{
+color: #ffffff;
+font-family: "Inter";
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+width: 202px;
+height: 67px;
+border-radius: 20px;
+background: #f69e86;
+margin-left: 650px;
+margin-right: 453px;    
+}
